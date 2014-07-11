@@ -72,6 +72,23 @@ From [Journal Publishing Tag Library - NISO JATS Draft Version
 </permissions>
 ```
 
+## F1000Research
+
+```xml
+
+<permissions>
+                <copyright-statement>Copyright: © 2014 Butterworth E et al.</copyright-statement>
+                <copyright-year>2014</copyright-year>
+                <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/3.0/">
+                    <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution Licence, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+                </license>
+                <license license-type="open-access" xlink:href="http://creativecommons.org/publicdomain/zero/1.0/">
+                    <license-p>Data associated with the article are available under the terms of the Creative Commons Zero "No rights reserved" data waiver (CC0 1.0 Public domain dedication).</license-p>
+                </license>
+            </permissions>
+
+```
+			
 ***Notes***
 
 * Use of character entity references ("\&copy;") should be discouraged (? see [issue

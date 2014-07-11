@@ -128,5 +128,65 @@ p>
 
 
 
+## F1000Research
+
+```xml
+
+<!-- box -->
+
+<boxed-text id="B1">
+                    <label>Box 1.</label>
+                    <caption>
+                        <title>Model code for a reaction sequence (Model #320 at 
+                            <ext-link ext-link-type="uri" xlink:href="http://www.physiome.org">www.physiome.org</ext-link>).</title>
+                    </caption>
+					<p>BOX TEXT!</p>
+</boxed-text>
+
+<!-- figure -->
+
+<fig fig-type="figure" id="f1" position="float">
+                    <label>Figure 1.</label>
+                    <caption>
+                        <title>Capillary-tissue exchange unit.</title>
+                        <p>Fluid flows with velocity F
+                            <sub>cap</sub>*L/V
+                            <sub>cap</sub> along the capillary from the entrance at x = 0 to the exit at x = L, and exchanges across the capillary wall into a stagnant extravascular region with conductance PS, the permeability-surface area product. The input is a bolus of solute, C
+                            <sub>in</sub>(t), entering the capillary with the flow, F
+                            <sub>cap</sub>. Axial gradients along the capillary are diminished by diffusion, D
+                            <sub>p</sub> and D
+                            <sub>isf</sub>. Tissue consumption occurs at rate G
+                            <sub>isf</sub>*C
+                            <sub>isf</sub>. This is a simplified version of models used for indicator dilution studies and PET clinical studies (
+                            <xref ref-type="bibr" rid="ref-16">Beard &amp; Bassingthwaighte, 2000</xref>; 
+                            <xref ref-type="bibr" rid="ref-7">Bassingthwaighte 
+                                <italic>et al.</italic>, 1989</xref>; 
+                            <xref ref-type="bibr" rid="ref-8">Bassingthwaighte 
+                                <italic>et al.</italic>, 1992</xref>; 
+                            <xref ref-type="bibr" rid="ref-12">Bassingthwaighte 
+                                <italic>et al.</italic>, 2006b</xref>).</p>
+                    </caption>
+                    <graphic xlink:href="f1000research-2-4716-g0000.eps"/>
+                </fig>
 
 
+<!-- table -->
+
+<table-wrap id="T3" position="anchor">
+                    <label>Table 3. </label>
+                    <caption>
+                        <title>JSim’s optimizers.</title>
+                    </caption>
+                    <table content-type="article-table" frame="hsides">
+                        <tbody>
+                            <tr>
+                                <td>Simplex</td>
+                                <td>A bounded, non-linear steepest-descent algorithm (
+                                    <xref ref-type="bibr" rid="ref-28">Dantzig 
+                                        <italic>et al.</italic>, 1955</xref>)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </table-wrap>
+
+```
