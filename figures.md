@@ -36,6 +36,23 @@ Figures
 </fig>
 ```
 
+## F1000Research
+
+###Single figure
+
+```xml
+<fig fig-type="figure" id="f1" position="float">
+                <label>Figure 1. </label>
+                <caption>
+                    <title>Ascent and descent profile for XE2 Everest Base Camp trek.</title>
+                    <p>Key: LDN = London, KTM = Kathmandu, NB = Namche Bazaar, EBC = Everest Base Camp.</p>
+                </caption>
+                <graphic xlink:href="f1000research-4-6754-g0000.eps"/>
+            </fig>
+```
+
+## eLife
+
 ###Figure group (figures and figure supplements)
 
 ```xml
