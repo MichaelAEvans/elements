@@ -185,4 +185,95 @@ The decision letter and response from the peer review process are published at t
 </article>
 
 ```
+## F1000Research
 
+We publish the peer reviewers reports and any author responses to the reports at the end of the article.
+
+```xml
+
+ <sub-article article-type="ref-report" id="report8551">
+        <front-stub>
+            <article-id pub-id-type="doi">10.5256/f1000research.6388.r8551</article-id>
+            <title-group>
+                <article-title>Referee response for version 1</article-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Patel</surname>
+                        <given-names>Rakesh Pravinchandra</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="r8551a1">1</xref>
+                    <role>Referee</role>
+                </contrib>
+                <aff id="r8551a1">
+                    <label>1</label>Department of Pathology and Center for Free Radical Biology and Lung Injury and Repair Center, University of Alabama at Birmingham, Birmingham, AL, USA</aff>
+            </contrib-group>
+            <author-notes>
+                <fn fn-type="conflict">
+                    <p>
+                        <bold>Competing interests: </bold>No competing interests were disclosed.</p>
+                </fn>
+            </author-notes>
+            <pub-date pub-type="epub">
+                <day>1</day>
+                <month>5</month><year>2015</year>
+            </pub-date>
+            <related-article ext-link-type="doi" id="relatedArticleReport8551" related-article-type="peer-reviewed-article" xlink:href="10.12688/f1000research.5971.1"/>
+            <custom-meta-group>
+                <custom-meta>
+                    <meta-name>recommendation</meta-name>
+                    <meta-value>approve</meta-value>
+                </custom-meta>
+            </custom-meta-group>
+        </front-stub>
+        <body>
+            <p>Cytoglobin in regulating redox reactions with H2O2. The study design and methods used are appropriate to address the proposed questions. The data nicely show that distal His residues of this protein play key roles in maintaining heme stability during reactions with H2O2.
+                <list list-type="order">
+                    <list-item>
+                        <p>Details of how many replicates and statistical analyses used to discern differences should be provided.</p>
+                    </list-item>
+                    <list-item>
+                        <p>Is the heme loss observed after reactions with H2O2 and His mutants due to heme release and/ or heme modification that in turn would preclude extraction and measurement by HPLC.  The authors should provide some thoughts on how they think reactions with H2O2 (in the His mutants) is causing the heme to be released or degraded?</p>
+                    </list-item>
+                    <list-item>
+                        <p>Are the effects of the distal His exclusive for reactions with H2O2? Could the authors speculate a little more on whether their results are more generalizable to other biologically relevant peroxides (LOOH, ONOO(H) etc.).</p>
+                    </list-item>
+                </list>
+            </p>
+            <p>I have read this submission. I believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard.</p>
+        </body>
+        <sub-article article-type="response" id="comment1389">
+            <front-stub>
+                <contrib-group>
+                    <contrib contrib-type="author">
+                        <name>
+                            <surname>Gilad</surname>
+                            <given-names>Yoav</given-names>
+                        </name>
+                        <aff>Human Genetics, University of Chicago, USA</aff>
+                    </contrib>
+                </contrib-group>
+                <author-notes>
+                    <fn fn-type="conflict">
+                        <p>
+                            <bold>Competing interests: </bold>No competing interests were disclosed.</p>
+                    </fn>
+                </author-notes>
+                <pub-date pub-type="epub">
+                    <day>26</day>
+                    <month>5</month><year>2015</year>
+                </pub-date>
+            </front-stub>
+            <body>
+                <p>Dr. Irizarry,</p>
+                <p>Thank you for spending the time to provide a review of our work. We agree with you that given the study design used by the mouse ENCODE consortium, applying a batch correction is futile. Indeed, we explicitly explain that in our discussion (you referred to that section of the text in your review).</p>
+                <p>We further agree that it would be intellectually interesting to research the extent of the batch effect further – for example, by following your suggestion on how to test for the effect of instrument and lane.</p>
+                <p>However, we feel that this additional effort is beyond the scope of our study. The mouse ENCODE consortium papers did not discuss (or account for) the sequencing study design. 
+                    <bold>We spent considerable effort tracking the details that allowed us to reconstruct their design</bold>. We pointed out in our paper that given this study design, the unusual biological result reported by the mouse ENCODE consortium might have a technical explanation. We believe it is the responsibility of the mouse ENCODE consortium authors to provide evidence that excludes this technical possibility, rather than us having to prove that it is indeed the likely explanation.</p>
+                <p>Which leads us to your third point: Indeed, the mouse ENCODE consortium authors commented that they have now collected additional sequence data, using a different design, and that their results held. In that sense, we believe that this means that the mouse ENCODE consortium authors accepted our claim that their original design was flawed.</p>
+                <p>Yet, as mentioned in a few other comments here, there is an additional technical batch effect that was not yet excluded – related to tissue extraction and sample preparation. We plan to discuss this additional technical batch effect in a revised version of the text (we will wait to see additional reviews before we provide a revised version of the paper).</p>
+                <p>Again, thank you for your time and thoughts.</p>
+            </body>
+        </sub-article>
+    </sub-article>
