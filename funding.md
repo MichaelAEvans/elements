@@ -132,3 +132,26 @@ The funding section is cross linked to each author by, for example <xref ref-typ
             </funding-group>
 ```
 
+## F1000Research
+
+```xml
+<funding-group>
+				<award-group id="fund-1">
+					<funding-source>NIF</funding-source>
+					<award-id>HHSN271200577531C/PHS/HHS/United States</award-id>
+				</award-group>
+				<award-group id="fund-2">
+					<funding-source>NIDDK</funding-source>
+					<award-id>1U24DK097771-01</award-id>
+				</award-group>
+				<award-group id="fund-3">
+					<funding-source>Monarch</funding-source>
+					<award-id>5R24OD011883</award-id>
+				</award-group>
+				<funding-statement>This work was supported by: an NIF grant to Martone PI (HHSN271200577531C/PHS HHS/United States); a NIDDK grant to Martone PI (1U24DK097771-01); and a grant from Monarch to Haendel PI (5R24OD011883).</funding-statement> 
+				<funding-statement>
+					<italic>I confirm that the funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</italic>
+				</funding-statement>
+			</funding-group>
+			```
+			
