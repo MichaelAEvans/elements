@@ -66,3 +66,23 @@ From J Adv Prosthodont. 2015 Apr; 7(2): 93–97; 10.4047/jap.2015.7.2.93
         </date>
       </history>
 ```
+
+##F1000Research
+
+```xml
+
+<pub-date pub-type="epub">
+                <day>19</day>
+                <month>5</month><year>2015</year>
+            </pub-date>
+            <pub-date pub-type="collection"><year>2015</year>
+            </pub-date><volume>4</volume>
+            <elocation-id>121</elocation-id>
+            <history>
+                <date date-type="accepted">
+                    <day>10</day>
+                    <month>5</month><year>2015</year>
+                </date>
+            </history>
+            
+```
