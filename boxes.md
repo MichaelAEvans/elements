@@ -23,4 +23,24 @@ Boxes
                 </boxed-text>
 
 ```
+## F1000Research
 
+```xml
+<p>
+				<boxed-text content-type="website" id="B1">
+					<caption>
+						<title>Box 1. Extract from the Instructions to Authors</title>
+					</caption>
+					<p>
+						<italic>The Antibody validation article collection aims to...</italic>
+					    </p>
+					<p><italic>F1000Research accepts a variety of validation studies, which will be published as Research Notes:</italic></p>
+					<list>
+						<list-item>
+							<p><italic>New antibodies; either against a new target or a new antibody raised against an existing target.</italic></p>
+						</list-item>
+					</list>
+				</boxed-text>
+			</p>
+
+```
